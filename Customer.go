@@ -9,6 +9,6 @@ func newCust(newName string) Customer {
 		name: newName,
 	}
 }
-func toString(cust Customer) string {
+func toStringC(cust Customer) string {
 	return cust.name
 }
