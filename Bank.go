@@ -1,5 +1,7 @@
 package bank
 
+import ."./account"
+
 type Bank struct {
 	accounts map[*IAccount]IAccount
 }
