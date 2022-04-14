@@ -6,7 +6,7 @@ type Bank struct {
 	accounts map[*IAccount]IAccount
 }
 
-func newBank(accounts map[*IAccount]IAccount) (bank *Bank) {
+func NewBank(accounts map[*IAccount]IAccount) (bank *Bank) {
 	bank = new(Bank)
 	bank.Init(accounts)
 	return
