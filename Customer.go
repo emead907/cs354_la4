@@ -4,11 +4,14 @@ type Customer struct {
 	name string
 }
 
-func newCust(newName string) Customer {
-	return Customer{
-		name: newName,
-	}
+func newCust(newName string) (cus *Customer) {
+	cus = new(Customer)
+	cus.Init(newName)
+	return
 }
-func toStringC(cust Customer) string {
+func (cus *Customer) Init(name string) {
+	cus.name = name
+}
+func (cust *Customer) String() string {
 	return cust.name
 }
