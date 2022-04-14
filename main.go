@@ -1,8 +1,8 @@
 package main
 
-import ."./customer"
-import ."./account"
-import ."./bank"
+import . "./customer"
+import . "./account"
+import . "./bank"
 
 import . "fmt"
 
