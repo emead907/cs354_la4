@@ -1,7 +1,7 @@
 package account
 
-import ."./customer"
-
+import . "./customer"
+ 
 import (
 	. "fmt"
 )
