@@ -1,6 +1,6 @@
 package account
 
-import ."./customer"
+import . "./customer"
 
 type ISaving interface {
 	IAccount
