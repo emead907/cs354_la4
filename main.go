@@ -25,12 +25,3 @@ func main() {
 	Printf("%s", bank.String())
 
 }
-
-/*
-public static void main(String[] args) {
-	bank.add(new CheckingAccount("01001",c,100.00));
-	bank.add(new SavingAccount("01002",c,200.00));
-	bank.accrue(0.02);
-	System.out.println(bank);
-    }
-*/
