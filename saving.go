@@ -17,7 +17,7 @@ func (s *Saving) Accure(rate float32, accrue chan float32) {
 	accrue <- interest
 }
 
-func newSaving(number string, customer Customer, balance float32) (s *Saving) {
+func NewSaving(number string, customer Customer, balance float32) (s *Saving) {
 	s = new(Saving)
 	s.Init(number, customer, balance)
 	return
