@@ -1,5 +1,9 @@
 package main
 
+import ."./customer"
+import ."./account"
+import ."./bank"
+
 import . "fmt"
 
 //import . "./account"
