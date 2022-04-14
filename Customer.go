@@ -1,5 +1,4 @@
-package countomer
-
+package coustomer
 type Customer struct {
 	name string
 }
