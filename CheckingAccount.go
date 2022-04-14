@@ -1,4 +1,4 @@
-package main
+package account
 
 type IChecking interface {
 	IAccount

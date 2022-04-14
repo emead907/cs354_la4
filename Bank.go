@@ -1,4 +1,4 @@
-package main
+package bank
 
 type Bank struct {
 	accounts map[*IAccount]IAccount

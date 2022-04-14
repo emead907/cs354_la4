@@ -1,4 +1,4 @@
-package main
+package countomer
 
 type Customer struct {
 	name string
