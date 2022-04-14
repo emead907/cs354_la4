@@ -3,7 +3,7 @@ type Customer struct {
 	name string
 }
 
-func newCust(newName string) (cus *Customer) {
+func NewCust(newName string) (cus *Customer) {
 	cus = new(Customer)
 	cus.Init(newName)
 	return
