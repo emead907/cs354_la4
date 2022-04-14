@@ -1,5 +1,7 @@
 package account
 
+import ."./customer"
+
 import (
 	. "fmt"
 )
