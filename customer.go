@@ -1,4 +1,4 @@
-package coustomer
+package customer
 type Customer struct {
 	name string
 }
